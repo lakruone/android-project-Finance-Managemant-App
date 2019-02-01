@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.piyumitha.good.AdminAddroll"
+    android:background="#FF5722">
+
+    <TextView
+        android:text="Add Employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Employee name"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Employee Password"
+        android:ems="10"
+        android:layout_below="@+id/editemName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemPass" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter User Name"
+        android:ems="10"
+        android:layout_below="@+id/editemPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemUe" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Role"
+        android:ems="10"
+        android:layout_below="@+id/editemUe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemRole" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Employee Email"
+        android:ems="10"
+        android:layout_below="@+id/editemRole"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemEmail" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Gender"
+        android:ems="10"
+        android:layout_below="@+id/editemEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemGender" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Address"
+        android:ems="10"
+        android:layout_below="@+id/editemGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemAddress" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter TelePhone Number"
+        android:ems="10"
+        android:layout_below="@+id/editemAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemTele" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Speciality"
+        android:ems="10"
+        android:layout_below="@+id/editemTele"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemSpe" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter DOB"
+        android:ems="10"
+        android:layout_below="@+id/editemSpe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemDob" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Age"
+        android:ems="10"
+        android:layout_below="@+id/editemDob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editemAge" />
+
+
+
+    <Button
+        android:text="Add Employee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editemAge"
+        android:id="@+id/buttonSubmitem" />
+
+
+
+
+</RelativeLayout>

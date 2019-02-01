@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.piyumitha.good.ManagerProject"
+    android:background="#FF5722">
+
+    <TextView
+        android:text="Add Projects Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Assign Project Leader"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editAssignLeader" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Start Day"
+        android:ems="10"
+        android:layout_below="@+id/editAssignLeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editStartDay" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Project Name"
+        android:ems="10"
+        android:layout_below="@+id/editStartDay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editProjenam"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Project Type"
+        android:ems="10"
+        android:layout_below="@+id/editProjenam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editProType"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Project Budget"
+        android:ems="10"
+        android:layout_below="@+id/editProType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ediProBug"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Project Discription"
+        android:ems="10"
+        android:layout_below="@+id/ediProBug"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ediProdis"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Project Status"
+        android:ems="10"
+        android:layout_below="@+id/ediProdis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ediProStatus"/>
+
+
+
+
+    <Button
+        android:text="Add Projects"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ediProStatus"
+        android:id="@+id/buttonSubmitmem" />
+    <Button
+        android:text="Show All Records"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/buttonSubmitmem"
+        android:id="@+id/buttonShowpro" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.piyumitha.good.ProjectLeaderProjectFinance"
+    android:background="#FF5722">
+
+    <TextView
+        android:text="Add Project Finance Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Choose the Project"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editChoseProject" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Type"
+        android:ems="10"
+        android:layout_below="@+id/editChoseProject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editfinType" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Discription"
+        android:ems="10"
+        android:layout_below="@+id/editfinType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editFineDiscription" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#f498ad"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Amount"
+        android:ems="10"
+        android:layout_below="@+id/editFineDiscription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editProAmount" />
+
+    <Button
+        android:text="Add Project Finance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editProAmount"
+        android:id="@+id/buttonSubmitFin" />
+
+    <Button
+        android:text="Show All"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/buttonSubmitFin"
+        android:id="@+id/buttonFinanceShow" />
+
+
+</RelativeLayout>
